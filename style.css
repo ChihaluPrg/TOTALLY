@@ -4,8 +4,23 @@ html {
   font-size: 62.5%;
 }
 
+#header {
+  margin-top: 40px;
+  padding: 0 15px;
+}
 
+.site-title {
+  width: 109px;
+  margin: 0 auto 36px auto;
+}
 
-@media screen and (min-width: 1024px) {
+.nav ul {
+  display: flex;
+  gap: 15px;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 897px) {
 
 }
