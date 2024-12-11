@@ -12,9 +12,9 @@
     <div class="container">
       <header id="header">
         <div class="site-title">
-          <a href="#"><img src="img/logo.svg" alt="site-logo"></a>
+          <a href="#"><img src="img/logo.svg" alt="site-logo" /></a>
         </div>
-        <div class="nav">
+        <nav class="wrapper">
           <ul class="menu">
             <li><a href="#">ALL</a></li>
             <li><a href="#">NEW</a></li>
@@ -23,20 +23,112 @@
             <li><a href="#">LOOKBOOK</a></li>
             <li><a href="#">BLOG</a></li>
           </ul>
-          
           <ul class="login">
             <li><a href="#">LOGIN</a></li>
             <li><a href="#">CONTACT</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
 
       <main id="main">
+        <div id="item" class="wrapper">
+          <div class="item-img"><img src="img/item.jpg" alt="" /></div>
+          <div class="item-info">
+            <h1 class="item-title">TOTALLY Short Sleeve Shirt</h1>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキスト
+            </p>
+            <p class="price">￥9,999 +tax</p>
 
+            <table class="order-table">
+              <thead>
+                <tr>
+                  <th class="color">Color</th>
+                  <th class="size">Size</th>
+                  <th class="quantity"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>White</td>
+                  <td>S</td>
+                  <td>
+                    <label for="quantity_s">数量 (S)</label>
+                    <select name="quantity_s" id="quantity_s">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>White</td>
+                  <td>M</td>
+                  <td>
+                    <label for="quantity_m">数量 (M)</label>
+                    <select name="quantity_m" id="quantity_m">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>White</td>
+                  <td>L</td>
+                  <td>
+                    <label for="quantity_l">数量 (L)</label>
+                    <select name="quantity_l" id="quantity_l">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="#">ADD TO CART</a>
+            <table class="size-table">
+              <thead>
+                <tr>
+                  <th class="size">Size</th>
+                  <th class="chest">Chest</th>
+                  <th class="weist">Weist</th>
+                  <th class="height">Height</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>S</td>
+                  <td>99～99</td>
+                  <td>99～99</td>
+                  <td>99～99</td>
+                </tr>
+                <tr>
+                  <td>M</td>
+                  <td>99～99</td>
+                  <td>99～99</td>
+                  <td>99～99</td>
+                </tr>
+                <tr>
+                  <td>L</td>
+                  <td>99～99</td>
+                  <td>99～99</td>
+                  <td>99～99</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </main>
 
       <footer id="footer">
-
+        <p>©TOTALLY</p>
       </footer>
     </div>
   </body>

@@ -6,6 +6,7 @@ html {
 
 #header {
   margin-top: 40px;
+  margin-bottom: 15px;
   padding: 0 15px;
 }
 
@@ -14,13 +15,119 @@ html {
   margin: 0 auto 36px auto;
 }
 
-.nav ul {
+.wrapper {
+}
+
+nav .menu, nav .login {
   display: flex;
+  align-items: center;
+}
+
+nav {
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+}
+
+.menu, .login {
   gap: 15px;
-  font-weight: lighter;
   font-size: 1.3rem;
+  font-weight: lighter;
+  align-items: center;
+}
+
+.menu {
+  margin-right: 30px;
+}
+
+.item-title {
+  margin: 10px 0 20px 0;
+  padding: 15px 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1f1f1f;
+  border-top: 1px solid #c0c0c0;
+  border-bottom:  1px solid #c0c0c0;
+}
+
+.item-info {
+  padding: 0 15px;
+}
+
+.item-info p {
+  font-size: 1.2rem;
+}
+
+.price {
+  margin: 30px 0 35px 0;
+}
+
+.order-table {
+  margin: 0 0 20px 0;
+  padding-left: 100px;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+th {
+  font-weight: lighter;
+}
+
+.order-table tr th, .order-table tr td {
+  border-right: 1px solid rgb(177, 177, 177);
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.order-table tr td {
+  border-top: 1px solid rgb(177, 177, 177);
+}
+
+.order-table tr td:last-child ,.order-table tr th:last-child {
+  border-right: none;
+}
+
+select {
+  width: 40px;
+}
+
+.item-info a {
+  color: #fff;
+  background-color: #535353;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.size-table {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  text-align: center;
+  border: 1px solid rgb(177, 177, 177);
+  margin-bottom: 120px;
+}
+
+.size-table thead tr th ,.size-table tbody tr td {
+  padding: 10px 10px;
+  border-bottom: 1px solid rgb(177, 177, 177);
+  border-right: 1px solid rgb(177, 177, 177);
+}
+
+.size-table thead tr th ,.size-table tbody tr td:first-child {
+  background-color: rgb(231, 231, 231); 
+}
+
+#footer {
+  color: rgb(134, 134, 134);
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 897px) {
 
+  nav {
+    overflow-x: visible;
+  }
 }
