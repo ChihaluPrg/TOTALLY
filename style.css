@@ -127,7 +127,29 @@ select {
 
 @media screen and (min-width: 897px) {
 
+  .container {
+    padding: 0 130px;
+  }
+
+  #header {
+    margin-bottom: 50px;
+  }
+
   nav {
     overflow-x: visible;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 30px 100px;
+    border-bottom:  1px solid rgb(177, 177, 177);
+  }
+
+  .item-img {
+    width: 300%;
+    padding-right: 50px;
+  }
+
+  .wrapper {
+    padding: 0 100px;
+    display: flex;
   }
 }
